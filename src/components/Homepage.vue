@@ -1,8 +1,8 @@
 <template>
 <div class="mx-auto">
     <!--   <img src="@/assets/three-sale-cp.png" class=" w-96 h-96" width="100%" alt="Ecommerce pic"> -->
-<!-- <video src="@/assets/Earth.mp4" loop="loop" autoplay="autoplay" playsinline muted="muted"
-        class=" w-full absolute object-cover " style="top: -10px; height: 780px;"></video>  -->
+ <video src="@/assets/newEarth.mp4" loop="loop" autoplay="autoplay" playsinline muted="muted"
+        class=" w-full absolute object-cover " style="top: -10px; height: 780px;"></video>
 </div>
 <div class="sm:pl-3 md:pl-2  pl-6 pr-28 pt-96 max-w-7xl mx-auto">
     <div class=" relative z-10  max-w-5xl  opacity-80">
