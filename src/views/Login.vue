@@ -1,6 +1,6 @@
 <template>
  <!-- REGISTERING USER -->
- <div class=" container mx-auto w-11/12 md:max-w-3xl h-auto md:h-auto bg-gray-100 shadow-black shadow-lg rounded-md border-x-2 border-orange-900">
+ <div class=" container mx-auto w-11/12 md:max-w-3xl h-auto md:h-auto bg-gray-100 shadow-black shadow-lg rounded-md border-x-2 border-orange-900 mb-2">
      <form class=" p-2 mt-5 pt-12">
        <h2 class=" flex justify-center pb-4"><img class="h-8 w-8" src="@/assets/user-register.svg" alt="Workflow" /></h2>
         <div class=" flex justify-start md:justify-center gap-3 m-2 items-baseline flex-wrap md:flex-nowrap">

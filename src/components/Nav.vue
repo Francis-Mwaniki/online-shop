@@ -22,18 +22,55 @@
           </div>
           <div class="hidden md:block">
             <div class="ml-4 flex items-center md:ml-6">
-              <button type="button" class= " bg-orange-800 p-1 rounded-full text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
-                <span class="sr-only">View notifications</span>
-                <BellIcon class="h-6 w-6" aria-hidden="true" />
+              <button type="button" class= " p-1  text-white">
+                <div >
+          <div class="">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5 lg:flex md:flex"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </div>
+          <div class="">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6 lg:flex md:flex"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"
+              />
+            </svg>
+          </div>
+        </div>
+              </button>
+              <button type="button" class= "m-1  p-2 bg-gray-200 rounded-lg text-gray-900 hover:text-black focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-slate-900">
+                <span class="sr-only">Users</span>
+                <select class=" p-1 outline-none border-0 gap-5 ">
+                  <option value="Admin" class="p-2 ">Admin</option>
+                  <option value="Client" class=" p-2">Client</option>
+                </select>
               </button>
 
               <!-- Profile dropdown -->
               <Menu as="div" class="ml-3 relative">
                 <div>
-                  <MenuButton class=" md:my-4 max-w-xs p-1 bg-orange-800 rounded-full flex items-center text-sm focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
+                  <MenuButton class=" md:my-4 max-w-xs p-1 bg-orange-800 rounded-lg flex items-center text-sm focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
                     <span class="sr-only">Open user menu</span>
                     <router-link  :to="{name:'signup'}" class=" uppercase items-baseline hover:underline hover:border-b-black m-1 text-bookmark-white">signup</router-link>
-                     <button class="items-baseline h-8 w-20 rounded-md p-1  uppercase hover:bg-blue-800 m-1 md:hover:rounded-md md:hover:ring-2 md:hover:border-orange-400 md:hover:border  bg-slate-800"> <router-link  class="text-bookmark-white" :to="{name:'login'}">login</router-link></button>
+                     <button class="transition-all duration-500 transform hover:opacity-90 hover:shadow-md hover:scale-125 items-baseline h-8 w-20 rounded-md p-1  uppercase hover:bg-blue-800 m-1 md:hover:rounded-md md:hover:ring-2 md:hover:border-orange-400 md:hover:border  bg-slate-800"> <router-link  class="text-bookmark-white" :to="{name:'login'}">login</router-link></button>
                     <img class="h-14 w-14 rounded-full" src="@/assets/avatar.jpeg" alt="" />
                   </MenuButton>
                 </div>

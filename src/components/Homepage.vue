@@ -4,48 +4,81 @@
  <video src="@/assets/newEarth.mp4" loop="loop" autoplay="autoplay" playsinline muted="muted"
         class=" w-full absolute object-cover " style="top: -10px; height: 780px;"></video>
 </div>
-<div class="sm:pl-3 md:pl-2  pl-6 pr-28 pt-96 max-w-7xl mx-auto">
+<div class="sm:pl-3 md:pl-9  pl-6 pr-28 md:pt-28 pt-2 max-w-7xl mx-auto">
     <div class=" relative z-10  max-w-5xl  opacity-80">
-       <div class=" flex justify-between md:flex-row flex-col">
-           <div class="">
-                <h2 class=" text-bookmark-white font-serif font-bold text-3xl hover:underline">DIGITAL MARKETING SHOP</h2>
-        <p class="text-bookmark-white font-serif font-normal max-w-md mt-6 text-2xl hover:underline">
+       <div class=" flex justify-between md:flex-row flex-col md:pr-12 gap-y-4">
+             <div class=" flex justify-end md:mx-auto" >
+               <img class=" md:h-96 h-80 w-auto rounded-lg" src="@/assets/suit3.jpg" alt="Workflow" />
+           </div>
+           <div class=" hover:bg-slate-900 bg-slate-900 p-2 opacity-80 rounded-2xl max-w-2xl ">
+                <h2 class=" text-bookmark-white font-serif  text-3xl hover:underline opacity-100 font-extrabold">DIGITAL PRO STORES</h2>
+        <p class="text-bookmark-white font-serif font-normal max-w-md mt-6 text-2xl hover:underline opacity-100">
             Easily Get Started,buying anything globally has now become possible.
         </p>
-        <button class=" transition duration-150 ease-out hover:ease-in btn btn-purple mt-6 hover:bg-bookmark-white hover:text-black">Get Started</button>
-           </div>
-           <div class=" md:mx-auto mt-5">
-               <img class=" h-48 w-auto rounded-lg" src="@/assets/home-pic.jpeg" alt="Workflow" />
+        <button class="">
+            <PopupRegister />
+        </button>
            </div>
        </div>
+        
     </div>
 </div>
-<div class=" mt-16 m-3 p-1 mx-auto mb-3">
+<div class=" md:mt-32 mt-14 m-3 p-1 mx-auto mb-3">
     <h2 class=" text-center text-black font-serif leading-5 mb-3 border-b-2 border-orange-600 mx-auto pb-2">RECOMMENDED PRODUCTS</h2>
     <div class=" grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3 grid-rows-6 md:grid-rows-3 lg:grid-rows-2 gap-2 text-bookmark-white text-center">
-        <div class="  p-3 bg-slate-900  rounded-md hover:bg-gradient-to-b from-slate-900 via-bookmark-blue to-orange-500 text-white hover:text-black shadow-lg shadow-black">
-            <img src="@/assets/shoe4.jpg" alt="shoe4">
-            <p class=" text-white p-1 pt-3">product one</p>
+        <div class="p-3 bg-slate-200 flex justify-center  rounded-md hover:bg-gradient-to-b from-slate-900 via-bookmark-blue to-orange-500 text-white hover:text-black shadow-lg shadow-black transition-all duration-500 transform hover:opacity-90 hover:shadow-md hover:scale-75">
+         <div class="">
+                <img src="@/assets/shoe4.jpg" alt="shoe4" class=" h-36 w-auto rounded-sm">
+           <div class=" flex justify-between">
+                <p class=" text-black p-1 pt-3">Shoe</p>
+                <h3 class="p-1 pt-3 text-black">Ksh 500.00</h3>
+           </div>
+         </div>
         </div>
-        <div class="  p-3  bg-slate-900  rounded-md hover:bg-gradient-to-b from-slate-900 via-bookmark-blue to-orange-500 text-white hover:text-black shadow-lg shadow-black">
-            <img src="@/assets/shoe2.jpg" alt="shoe2">
-            <p class=" text-white p-1 pt-3"> product two</p>
+        <div class="p-3  bg-slate-200 flex justify-center  rounded-md hover:bg-gradient-to-b from-slate-900 via-bookmark-blue to-orange-500 text-white hover:text-black shadow-lg shadow-black transition-all duration-500 transform hover:opacity-90 hover:shadow-md hover:scale-75">
+          <div class="">
+                <img src="@/assets/shoe2.jpg" alt="shoe2" class=" h-36 w-auto rounded-sm">
+                 <div class=" flex justify-between">
+                <p class=" text-black p-1 pt-3">Shoe 2</p>
+                <h3 class="p-1 pt-3 text-black">Ksh 500.00</h3>
+           </div>
+          </div>
         </div>
-        <div class=" p-3  bg-slate-900  rounded-md  hover:bg-gradient-to-b from-slate-900 via-bookmark-blue to-orange-500 text-white hover:text-black shadow-lg shadow-black">
-            <img src="@/assets/shoe-sale.jpg" alt="shoe3">
-            <p class=" text-white p-1 pt-3"> product three</p>
+        <div class="p-3  bg-slate-200 flex justify-center  rounded-md  hover:bg-gradient-to-b from-slate-900 via-bookmark-blue to-orange-500 text-white hover:text-black shadow-lg shadow-black transition-all duration-500 transform hover:opacity-90 hover:shadow-md hover:scale-75">
+            <div class="">
+                <img src="@/assets/shoe-sale.jpg" alt="shoe3" class=" h-36 w-auto rounded-sm">
+                 <div class=" flex justify-between">
+                <p class=" text-black p-1 pt-3">Shoe 3</p>
+                <h3 class="p-1 pt-3 text-black">Ksh 500.00</h3>
+           </div>
+            </div>
         </div>
-        <div class="  p-3 bg-slate-900  rounded-md hover: hover:bg-gradient-to-b from-slate-900 via-bookmark-blue  to-orange-500 text-white hover:text-black shadow-lg shadow-black">
-            <img src="@/assets/suit1.jpg" alt="suit1">
-            <p class=" text-white p-1 pt-3"> product four</p>
+        <div class="p-3 bg-slate-200 flex justify-center  rounded-md hover: hover:bg-gradient-to-b from-slate-900 via-bookmark-blue  to-orange-500 text-white hover:text-black shadow-lg shadow-black transition-all duration-500 transform hover:opacity-90 hover:shadow-md hover:scale-75">
+           <div class="">
+                <img src="@/assets/suit1.jpg" alt="suit1" class=" h-36 w-auto rounded-sm">
+                 <div class=" flex justify-between">
+                <p class=" text-black p-1 pt-3">Suit</p>
+                <h3 class="p-1 pt-3 text-black">Ksh 500.00</h3>
+           </div>
+           </div>
         </div>
-        <div class=" p-3  bg-slate-900 rounded-md hover:bg-gradient-to-b from-slate-900 via-bookmark-blue to-orange-500 text-white hover:text-black shadow-lg shadow-black">
-            <img src="@/assets/suit2.jpg" alt="suit2">
-            <p class=" text-white p-1 pt-3"> product five</p>
+        <div class="p-3  bg-slate-200 flex justify-center  rounded-md hover:bg-gradient-to-b from-slate-900 via-bookmark-blue to-orange-500 text-white hover:text-black shadow-lg shadow-black transition-all duration-500 transform hover:opacity-90 hover:shadow-md hover:scale-75">
+          <div class="">
+                <img src="@/assets/suit2.jpg" alt="suit2" class=" h-36 w-auto rounded-sm">
+                 <div class=" flex justify-between">
+                <p class=" text-black p-1 pt-3">Suit 2</p>
+                <h3 class="p-1 pt-3 text-black">Ksh 500.00</h3>
+           </div>
+          </div>
         </div>
-        <div class=" p-3 bg-slate-900  rounded-md hover:bg-gradient-to-b  from-slate-900 via-bookmark-blue to-orange-500 text-white hover:text-black shadow-lg shadow-black">
-            <img src="@/assets/suit4.jpg" alt="suit4">
-            <p class=" text-white p-1 pt-3"> product six</p>
+        <div class="p-3 bg-slate-200 flex justify-center  rounded-md hover:bg-gradient-to-b  from-slate-900 via-bookmark-blue to-orange-500 text-white hover:text-black shadow-lg shadow-black transition-all duration-500 transform hover:opacity-90 hover:shadow-md hover:scale-75">
+         <div class="">
+                <img src="@/assets/suit4.jpg" alt="suit4" class=" h-36 w-auto rounded-sm">
+                 <div class=" flex justify-between">
+                <p class=" text-black p-1 pt-3">Suit 3</p>
+                <h3 class="p-1 pt-3 text-black">Ksh 500.00</h3>
+           </div>
+         </div>
 
         </div>
     </div>
@@ -96,8 +129,12 @@
 </template>
 
 <script>
+import PopupRegister from '@/components/PopupRegister.vue'
 export default {
     name: 'Homepage',
+    components:{
+        PopupRegister
+    }
 
 }
 </script>
