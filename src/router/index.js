@@ -4,7 +4,7 @@ import Products from '../views/Products.vue'
 import Pricing from '../views/Pricing.vue'
 import Services from '../views/Services.vue'
 import About from '../views/About.vue'
-import ShoppingCart from '../views/ShoppingCart.vue'
+import clientDashboard from '../views/clientDashboard.vue'
 import Signup from '../views/Signup.vue'
 import Login from '../views/Login.vue'
 const routes = [
@@ -34,9 +34,9 @@ const routes = [
     component: About
   },
   {
-    path: '/ShoppingCart',
-    name: 'ShoppingCart',
-    component: ShoppingCart
+    path: '/clientDashboard',
+    name: 'clientDashboard',
+    component: clientDashboard
   },
   {
     path: '/signup',

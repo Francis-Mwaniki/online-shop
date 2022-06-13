@@ -1,5 +1,5 @@
 <template>
-<div class=" dark:bg-slate-800">
+<div class=" dark:bg-black">
   <div class=" relative z-10">
   <Nav />
 </div>

@@ -12,9 +12,9 @@
 </div>
 <div class=" mt-1 p-1 mb-3">
     <h2 class=" text-center text-black dark:text-bookmark-white font-serif leading-5 mb-3 border-b-2 border-orange-600 mx-auto pb-2">CATEGORIES</h2>
-   <div class=" bg-slate-900 p-1 md:h-auto h-36 w-auto md:w-full pb-6 container mx-auto">
-      <h2 class=" text-center text-white dark:text-bookmark-white font-serif leading-5 mb-3 mx-auto pb-4 uppercase pt-4 bg-orange-700 dark:bg-slate-700">MEN'S WEAR</h2>
-      <div class=" justify-center items-center grid grid-cols-2 md:grid-cols-2  lg:grid-cols-4 grid-rows-4 md:grid-rows-3 lg:grid-rows-2 text-bookmark-white text-center lg:gap-3 md:gap-7  gap-28 mx-auto ">
+   <div class=" bg-slate-900 p-1 h-auto w-full pb-6 container mx-auto">
+      <h2 class="container mx-auto text-center text-white dark:text-bookmark-white font-serif leading-5 mb-3 pb-4 uppercase pt-4 bg-orange-700 dark:bg-slate-700">MEN'S WEAR</h2>
+      <div class=" text-center items-center  grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3 grid-rows-8 md:grid-rows-3  lg:grid-flow-row mx-28 gap-y-7 justify-center">
         <div class=" w-64 h-auto  bg-bookmark-white dark:bg-slate-700 dark:text-bookmark-white   rounded-md  text-white hover:text-black shadow-lg shadow-black transition-all duration-500 transform hover:opacity-90 hover:shadow-md hover:scale-90">
             <img src="@/assets/shoe4.jpg" alt="shoe4" class=" h-32 w-auto p-1 mx-auto">
             <p class=" text-black p-1 pt-3">product one</p>

@@ -20,7 +20,7 @@
                     <router-link :to="{name:'about'}" class="  hover:border-b-black">About</router-link>
                 </h2>
                 <h2>
-                    <router-link :to="{name:'ShoppingCart'}" class=" hover:border-b-black">Orders</router-link>
+                    <router-link :to="{name:'clientDashboard'}" class=" hover:border-b-black">Orders</router-link>
                 </h2>
             </div>
             <div class=" gap-2">
@@ -40,7 +40,7 @@
                     <router-link :to="{name:'about'}" class="  hover:border-b-black">Learn more about us</router-link>
                 </h2>
                 <h2>
-                    <router-link :to="{name:'ShoppingCart'}" class=" hover:border-b-black">Developers</router-link>
+                    <router-link :to="{name:'clientDashboard'}" class=" hover:border-b-black">Developers</router-link>
                 </h2>
             </div>
             <div class=" gap-2">
@@ -60,7 +60,7 @@
                     <router-link :to="{name:'about'}" class="  hover:border-b-black">Our management</router-link>
                 </h2>
                 <h2>
-                    <router-link :to="{name:'ShoppingCart'}" class=" hover:border-b-black">About other tools</router-link>
+                    <router-link :to="{name:'clientDashboard'}" class=" hover:border-b-black">About other tools</router-link>
                 </h2>
             </div>
             <div class=" gap-2">
