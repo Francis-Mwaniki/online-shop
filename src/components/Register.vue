@@ -1,23 +1,23 @@
 <template>
   <!-- REGISTERING USER -->
-<div class=" container mx-auto w-11/12 md:max-w-3xl h-auto md:h-auto bg-gray-100 shadow-black shadow-lg rounded-md border-x-2 border-orange-900 mb-2">
+<div class=" container mx-auto w-11/12 md:max-w-3xl h-auto md:h-auto bg-gray-100 dark:bg-slate-700 shadow-black shadow-lg rounded-md border-x-2 border-orange-900 mb-2">
     <form class=" p-2 mt-5 pt-12">
-        <h2 class=" flex justify-center pb-4"><img class="h-8 w-8" src="@/assets/user-register.svg" alt="Workflow" /></h2>
+        <h2 class=" flex justify-center pb-4"><img class="h-8 w-8 dark:bg-slate-400 dark:p-2 dark:rounded-full" src="@/assets/user-register.svg" alt="Workflow" /></h2>
         <div class=" flex justify-start md:justify-center gap-3 m-2 items-baseline flex-wrap md:flex-nowrap">
-            <label for="fname" class=" justify-start md:justify-center tracking-wide">FirstName</label>
+            <label for="fname" class=" justify-start md:justify-center tracking-wide dark:text-white">FirstName</label>
             <input type="text" name="fname" placeholder="FirstName" class="justify-start md:justify-center p-2 rounded-lg focus:ring-4 ring-blue-900 border border-bookmark-blue">
-            <label for="lname" class=" justify-start md:justify-center tracking-wide">LastName</label>
+            <label for="lname" class=" justify-start md:justify-center tracking-wide dark:text-white">LastName</label>
             <input type="text" name="lname" placeholder="LastName" class=" p-2 rounded-lg focus:ring-4 ring-blue-900 border border-bookmark-blue">
         </div>
         <div class=" flex justify-start md:justify-center gap-3 m-2 items-baseline flex-wrap md:flex-nowrap">
-            <label for="email" class="justify-start md:justify-center tracking-wide">Email</label>
+            <label for="email" class="justify-start md:justify-center tracking-wide dark:text-white">Email</label>
             <input type="email" placeholder="Email.." class="justify-start md:justify-center p-2 rounded-lg focus:ring-4 ring-blue-900 border border-bookmark-blue">
         </div>
         <div class=" flex justify-start md:justify-center gap-3 m-2 items-baseline flex-wrap md:flex-nowrap">
-            <label for="password" class="justify-start md:justify-center tracking-wide">Password</label>
+            <label for="password" class="justify-start md:justify-center tracking-wide dark:text-white">Password</label>
             <input type="password" name="password" placeholder="Password" class="justify-start md:justify-center p-2 rounded-lg focus:ring-4 ring-blue-900 border border-bookmark-blue">
-            <label for="confirmPassword" class="justify-start md:justify-center tracking-wide">ConfirmPass</label>
-            <input type="password" placeholder="confirmPassword" class="justify-start md:justify-center p-2 rounded-lg focus:ring-4 ring-blue-900 border border-bookmark-blue">
+            <label for="confirmPassword" class="justify-start md:justify-center tracking-wide dark:text-white">ConfirmPass</label>
+            <input type="password" placeholder="confirmPassword" class=" justify-start md:justify-center p-2 rounded-lg focus:ring-4 ring-blue-900 border border-bookmark-blue">
         </div>
         <div class=" flex justify-self-center md:justify-center bg-bookmark-blue btn text-white items-center focus:ring-4 ring-blue-900 md:pt-4 mb-5">
             <input type="submit" value="Register" class=" mx-auto ">
@@ -38,8 +38,8 @@
 
         </div>
         <div class="flex justify-self-center md:justify-center pt-5">
-            <h3 class="">Already have an account?</h3>
-            <router-link :to="{name:'login'}" class=" text-bookmark-blue underline">Login</router-link>
+            <h3 class=" dark:text-white">Already have an account?</h3>
+            <router-link :to="{name:'login'}" class=" text-bookmark-blue underline dark:text-bookmark-white">Login</router-link>
         </div>
     </form>
 </div>

@@ -88,9 +88,9 @@
     </form>
 </div>
 </div>
-<div class=" bg-gradient-to-r from-pink-700 via-bookmark-blue to-orange-500 p-2 h-36 md:32 pb-10">
+<div class=" dark:bg-slate-700 bg-gradient-to-r from-pink-700 via-bookmark-blue to-orange-500 p-2 h-36 md:32 pb-10">
     <div class=" flex justify-around items-center pt-6 gap-x-8 lg:gap-x-16  md:flex-row flex-col md:items-baseline">
-        <h3 class=" leading-5 text-bookmark-white underline mb-5 text-sm font-cursive">All Rights Reserved &copy;Copyrights 2022 DigitalPro&trade;❤️</h3>
+        <h3 class=" leading-5 text-bookmark-white dark:text-gray-300 underline mb-5 text-sm font-cursive">All Rights Reserved &copy;Copyrights 2022 DigitalPro&trade;❤️</h3>
         <div class="  justify-center p-1 mb-9 gap-x-8 items-baseline flex">
             <a href="" target="_blank" rel="noopener noreferrer"><img src="@/assets/SocialMedia/linkedIn.svg" class="h-9" alt=""></a>
             <a href="" target="_blank" rel="noopener noreferrer"><img src="@/assets/SocialMedia/Facebook.svg" class=" h-9" alt=""></a>

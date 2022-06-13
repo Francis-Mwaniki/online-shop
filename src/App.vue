@@ -1,9 +1,11 @@
 <template>
-<div class=" relative z-10">
+<div class=" dark:bg-slate-800">
+  <div class=" relative z-10">
   <Nav />
 </div>
   <router-view/>
   <Footer />
+</div>
 </template>
 <script>
 import Nav from '@/components/Nav.vue'

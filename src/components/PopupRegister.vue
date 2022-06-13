@@ -1,17 +1,21 @@
 <template>
 <div v-if="showing" class="absolute inset-0  flex items-center justify-center mb-0 container mx-auto w-11/12 md:max-w-5xl h-auto md:h-auto">
  <div class="relative z-20 w-full  h-auto">
+   <div class="transition-all duration-500 transform hover:opacity-100 hover:shadow-md hover:scale-90">
+         <Register />
+       </div>
       <div class="">
         <button
         aria-label="close"
-        class="absolute top-0 right-0 text-xl  text-black h-10 w-auto bg-bookmark-white rounded-3xl p-2 animate-ping"
+        class="absolute top-0 right-0 text-xl  text-black w-auto bg-bookmark-white p-2 rounded-full"
         @click="showing=!showing"
       >
-        X
+      <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+      class=" animate-ping"
+        width="48" height="48"
+        viewBox="0 0 48 48"
+        style=" fill:#undefined;"><path fill="#f44336" d="M44,24c0,11.045-8.955,20-20,20S4,35.045,4,24S12.955,4,24,4S44,12.955,44,24z"></path><path fill="#fff" d="M29.656,15.516l2.828,2.828l-14.14,14.14l-2.828-2.828L29.656,15.516z"></path><path fill="#fff" d="M32.484,29.656l-2.828,2.828l-14.14-14.14l2.828-2.828L32.484,29.656z"></path></svg>
       </button>
-       <div class="transition-all duration-500 transform hover:opacity-100 hover:shadow-md hover:scale-90">
-         <Register />
-       </div>
       </div>
  </div>
 </div>

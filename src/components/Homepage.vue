@@ -24,9 +24,9 @@
     </div>
 </div>
 <div class=" md:mt-32 mt-14 m-3 p-1 mx-auto mb-3">
-    <h2 class=" text-center text-black font-serif leading-5 mb-3 border-b-2 border-orange-600 mx-auto pb-2">RECOMMENDED PRODUCTS</h2>
+    <h2 class=" text-center text-black dark:text-white font-serif leading-5 mb-3 border-b-2 border-orange-600 mx-auto pb-2">RECOMMENDED PRODUCTS</h2>
     <div class=" grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3 grid-rows-6 md:grid-rows-3 lg:grid-rows-2 gap-2 text-bookmark-white text-center">
-        <div class="p-3 bg-slate-200 flex justify-center  rounded-md hover:bg-gradient-to-b from-slate-900 via-bookmark-blue to-orange-500 text-white hover:text-black shadow-lg shadow-black transition-all duration-500 transform hover:opacity-90 hover:shadow-md hover:scale-75">
+        <div class="p-3 bg-white dark:bg-gray-600 flex justify-center  rounded-md hover:bg-gradient-to-b from-slate-900 via-bookmark-blue to-orange-500 text-white dark:hover:bg-orange-300 hover:text-black shadow-lg shadow-black transition-all duration-500 transform hover:opacity-90 hover:shadow-md hover:scale-75">
          <div class="">
                 <img src="@/assets/shoe4.jpg" alt="shoe4" class=" h-36 w-auto rounded-sm">
            <div class=" flex justify-between">
@@ -35,7 +35,7 @@
            </div>
          </div>
         </div>
-        <div class="p-3  bg-slate-200 flex justify-center  rounded-md hover:bg-gradient-to-b from-slate-900 via-bookmark-blue to-orange-500 text-white hover:text-black shadow-lg shadow-black transition-all duration-500 transform hover:opacity-90 hover:shadow-md hover:scale-75">
+        <div class="p-3  bg-white dark:bg-gray-600 flex justify-center  rounded-md hover:bg-gradient-to-b from-slate-900 via-bookmark-blue to-orange-500 text-white dark:hover:bg-orange-300 hover:text-black shadow-lg shadow-black transition-all duration-500 transform hover:opacity-90 hover:shadow-md hover:scale-75">
           <div class="">
                 <img src="@/assets/shoe2.jpg" alt="shoe2" class=" h-36 w-auto rounded-sm">
                  <div class=" flex justify-between">
@@ -44,7 +44,7 @@
            </div>
           </div>
         </div>
-        <div class="p-3  bg-slate-200 flex justify-center  rounded-md  hover:bg-gradient-to-b from-slate-900 via-bookmark-blue to-orange-500 text-white hover:text-black shadow-lg shadow-black transition-all duration-500 transform hover:opacity-90 hover:shadow-md hover:scale-75">
+        <div class="p-3  bg-white dark:bg-gray-600 flex justify-center  rounded-md  hover:bg-gradient-to-b from-slate-900 via-bookmark-blue to-orange-500 text-white dark:hover:bg-orange-300 hover:text-black shadow-lg shadow-black transition-all duration-500 transform hover:opacity-90 hover:shadow-md hover:scale-75">
             <div class="">
                 <img src="@/assets/shoe-sale.jpg" alt="shoe3" class=" h-36 w-auto rounded-sm">
                  <div class=" flex justify-between">
@@ -53,7 +53,7 @@
            </div>
             </div>
         </div>
-        <div class="p-3 bg-slate-200 flex justify-center  rounded-md hover: hover:bg-gradient-to-b from-slate-900 via-bookmark-blue  to-orange-500 text-white hover:text-black shadow-lg shadow-black transition-all duration-500 transform hover:opacity-90 hover:shadow-md hover:scale-75">
+        <div class="p-3 bg-white dark:bg-gray-600 flex justify-center  rounded-md hover: hover:bg-gradient-to-b from-slate-900 via-bookmark-blue  to-orange-500 dark:hover:bg-orange-300 text-white hover:text-black shadow-lg shadow-black transition-all duration-500 transform hover:opacity-90 hover:shadow-md hover:scale-75">
            <div class="">
                 <img src="@/assets/suit1.jpg" alt="suit1" class=" h-36 w-auto rounded-sm">
                  <div class=" flex justify-between">
@@ -62,7 +62,7 @@
            </div>
            </div>
         </div>
-        <div class="p-3  bg-slate-200 flex justify-center  rounded-md hover:bg-gradient-to-b from-slate-900 via-bookmark-blue to-orange-500 text-white hover:text-black shadow-lg shadow-black transition-all duration-500 transform hover:opacity-90 hover:shadow-md hover:scale-75">
+        <div class="p-3  bg-white dark:bg-gray-600 flex justify-center  rounded-md hover:bg-gradient-to-b from-slate-900 via-bookmark-blue to-orange-500 dark:hover:bg-orange-300 text-white hover:text-black shadow-lg shadow-black transition-all duration-500 transform hover:opacity-90 hover:shadow-md hover:scale-75">
           <div class="">
                 <img src="@/assets/suit2.jpg" alt="suit2" class=" h-36 w-auto rounded-sm">
                  <div class=" flex justify-between">
@@ -71,7 +71,7 @@
            </div>
           </div>
         </div>
-        <div class="p-3 bg-slate-200 flex justify-center  rounded-md hover:bg-gradient-to-b  from-slate-900 via-bookmark-blue to-orange-500 text-white hover:text-black shadow-lg shadow-black transition-all duration-500 transform hover:opacity-90 hover:shadow-md hover:scale-75">
+        <div class="p-3 bg-white dark:bg-gray-600 flex justify-center  rounded-md hover:bg-gradient-to-b  from-slate-900 via-bookmark-blue to-orange-500 dark:hover:bg-orange-300 text-white hover:text-black shadow-lg shadow-black transition-all duration-500 transform hover:opacity-90 hover:shadow-md hover:scale-75">
          <div class="">
                 <img src="@/assets/suit4.jpg" alt="suit4" class=" h-36 w-auto rounded-sm">
                  <div class=" flex justify-between">
@@ -83,12 +83,12 @@
         </div>
     </div>
 </div>
-<div class="p-1 bg-cyan-900 mx-auto">
+<div class="p-1 mx-auto bg-white dark:bg-gray-600">
     <h2>
         <router-link :to="{name:'services'}" class="flex  hover:underline font-extrabold hover:border-b-black uppercase text-white pb-2 justify-center mt-4 ">services</router-link>
     </h2>
 </div>
-<div class="flex border-red-900 border-l-2 bg-gradient-to-r from-slate-900 via-bookmark-blue to-orange-500 mt-3 p-3 bg-slate-900 text-black justify-center text-center  flex-col-reverse md:flex-row md:justify-start">
+<div class="flex border-red-900 border-l-2 bg-gradient-to-r from-slate-900 via-bookmark-blue to-orange-500  mt-3 p-3 bg-slate-900 dark:bg-slate-700 dark:hover:bg-orange-300 text-black justify-center text-center  flex-col-reverse md:flex-row md:justify-start">
     <div class=" p-2 m-2 max-w-2xl md:mt-36 mt-9 text-white">
         <h2 class=" m-3 p-2 md:leading-4 md:tracking-wide uppercase font-bold font-serif">Find the way forward for your business</h2>
         <p class=" p-2 mt-1 tracking-normal font-light text-gray-300 ">From shoe stores to snack shops, browse digital marketing store examples and get inspired to get online.</p>
@@ -96,16 +96,16 @@
     </div>
     <div class=" md:ml-6 mx-auto"> <img src="@/assets/three-sale.png" class=" w-full md:w-auto lg:w-auto h-80 mx-auto rounded-sm mt-4" width="100%" alt="Ecommerce pic"></div>
 </div>
-<div class="flex border-red-900 border-x-2 mt-0 p-3 bg-gradient-to-b from-slate-900 via-bookmark-blue to-orange-500  md:text-black  justify-center text-center  flex-col-reverse md:flex-row-reverse md:justify-start">
+<div class="flex border-red-900 border-x-2 mt-0 p-3 bg-gradient-to-b from-slate-900 via-bookmark-blue to-orange-500 dark:hover:bg-orange-300 md:text-black  justify-center text-center  flex-col-reverse md:flex-row-reverse md:justify-start">
     <div class=" p-2 m-2 max-w-2xl md:mt-36 mt-9 text-white">
         <h2 class=" m-3 p-2 md:leading-4 md:tracking-wide uppercase font-serif font-bold md:text-white text-black">Explore more nice products</h2>
         <p class=" p-2 mt-1 tracking-normal font-light  md:text-gray-400 text-black">Get the look and feel you want for your store with other nice products. Find the right expression of your brand's unique style.</p>
-        <button class=" ease-in-out duration-300 btn  bg-slate-900 mt-6 hover:bg-bookmark-white hover:text-black">More info</button>
+        <button class=" ease-in-out duration-300 btn  bg-slate-900 dark:bg-slate-700 dark:hover:bg-slate-500 mt-6 hover:bg-bookmark-white hover:text-black">More info</button>
     </div>
     <div class=" md:ml-6 mx-auto"> <img src="@/assets/one-sale.jpg" class=" w-full md:w-auto lg:w-auto h-80 mx-auto rounded-sm mt-4" width="100%" alt="Ecommerce pic"></div>
 </div>
 <!-- BUSINESS BRIEFS AND ANALYTICS -->
-<div class=" lg:bg-blue-900 p-12 gap-4 bg-bookmark-blue md:bg-bookmark-blue">
+<div class=" lg:bg-blue-900 p-12 gap-4 bg-bookmark-blue md:bg-bookmark-blue dark:bg-gray-800 ">
     <h1 class=" flex justify-center mt-1 mb-7 uppercase font-serif font-bold text-white">Business Analytics</h1>
     <div class=" lg:bg-slate-900 sm:bg-bookmark-blue md:mx-72 py-36 rounded-md flex-col md:flex-row">
         <div class="flex justify-center items-center align-middle gap-20 text-bookmark-white p-2 lg:border-b  lg:border-x-2 lg:border-orange-900">
