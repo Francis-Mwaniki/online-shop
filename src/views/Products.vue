@@ -1,8 +1,8 @@
 <template>
 <div class=" flex md:justify-end justify-center m-1">
-     <button class=" flex justify-center border border-orange-900 rounded-lg dark:border-slate-600"> 
+     <button class=" flex justify-center border dark:bg-orange-700 border-orange-900 rounded-lg dark:border-slate-600"> 
               <svg
-              class=" inset-0 dark:text-white  h-8 pt-2 transition-all duration-500 transform hover:opacity-90 hover:shadow-md hover:scale-125"
+              class=" inset-0 dark:text-white    h-8 pt-2 transition-all duration-500 transform hover:opacity-90 hover:shadow-md hover:scale-125"
                xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
           width="40" height="40"
           viewBox="0 0 50 50"
@@ -55,11 +55,26 @@
             <p class=" text-black p-1 pt-3"> product five</p>
              <button class=" ease-in-out duration-300 btn  bg-red-900 mt-2 mb-2 hover:bg-bookmark-white hover:text-black">Add To Cart</button>
         </div>
+         <div class="w-64 h-auto bg-bookmark-white dark:bg-slate-700 dark:text-bookmark-white   rounded-md   text-white hover:text-black shadow-lg shadow-black transition-all duration-500 transform hover:opacity-90 hover:shadow-md hover:scale-90">
+            <img src="@/assets/suit4.jpg" alt="suit4" class=" h-32 w-auto p-1 mx-auto">
+            <p class=" text-black p-1 pt-3"> product six</p>
+             <button class=" ease-in-out duration-300 btn  bg-red-900 mt-2 mb-2 hover:bg-bookmark-white hover:text-black">Add To Cart</button>
+        </div>
+         <div class="w-64 h-auto bg-bookmark-white dark:bg-slate-700 dark:text-bookmark-white   rounded-md hover:  text-white hover:text-black shadow-lg shadow-black transition-all duration-500 transform hover:opacity-90 hover:shadow-md hover:scale-90">
+            <img src="@/assets/suit1.jpg" alt="suit1" class=" h-32 w-auto p-1 mx-auto">
+            <p class=" text-black p-1 pt-3"> product four</p>
+             <button class=" ease-in-out duration-300 btn  bg-red-900 mt-2 mb-2 hover:bg-bookmark-white hover:text-black">Add To Cart</button>
+        </div>
+        <div class="w-64 h-auto  bg-bookmark-white dark:bg-slate-700 dark:text-bookmark-white  rounded-md   text-white hover:text-black shadow-lg shadow-black transition-all duration-500 transform hover:opacity-90 hover:shadow-md hover:scale-90">
+            <img src="@/assets/suit2.jpg" alt="suit2" class=" h-32 w-auto p-1 mx-auto">
+            <p class=" text-black p-1 pt-3"> product five</p>
+             <button class=" ease-in-out duration-300 btn  bg-red-900 mt-2 mb-2 hover:bg-bookmark-white hover:text-black">Add To Cart</button>
+        </div>
     </div>
    </div>
     <div class=" bg-blue-900 dark:bg-slate-800 p-1 h-auto w-full pb-6 container mx-auto">
       <h2 class=" text-center text-white font-serif leading-5 mb-3 mx-auto pb-4 uppercase pt-4 bg-orange-700 dark:bg-slate-700">WOMEN'S WEAR</h2>
-      <div class=" justify-center items-center md:ml-10 lg:ml-4  ml-6 grid grid-cols-2 md:grid-cols-2  lg:grid-cols-4 grid-rows-4 md:grid-rows-3 lg:grid-rows-2 text-bookmark-white text-center gap-3 container mx-auto">
+      <div class=" text-center items-center  grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3 grid-rows-8 md:grid-rows-3  lg:grid-flow-row mx-28 gap-y-7 justify-center">
        <div class=" w-64 h-auto  bg-bookmark-white dark:bg-slate-700 dark:text-bookmark-white   rounded-md  text-white hover:text-black shadow-lg shadow-black transition-all duration-500 transform hover:opacity-90 hover:shadow-md hover:scale-90">
             <img src="@/assets/shoe4.jpg" alt="shoe4" class=" h-32 w-auto p-1 mx-auto">
             <p class=" text-black p-1 pt-3">product one</p>
@@ -104,7 +119,7 @@
    </div>
    <div class=" bg-pink-900 dark:bg-slate-800 p-1 h-auto w-full pb-6 container mx-auto">
       <h2 class=" text-center text-white  font-serif leading-5 mb-3 mx-auto pb-4 uppercase pt-4 bg-orange-700 dark:bg-slate-700">ELECTRONICS AND DEVICES</h2>
-      <div class=" justify-center items-center md:ml-10 lg:ml-4  ml-6 grid grid-cols-2 md:grid-cols-2  lg:grid-cols-4 grid-rows-4 md:grid-rows-3 lg:grid-rows-2 text-bookmark-white text-center gap-3 container mx-auto">
+      <div class="  text-center items-center  grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3 grid-rows-8 md:grid-rows-3  lg:grid-flow-row mx-28 gap-y-7 justify-center">
         <div class=" w-64 h-auto  bg-bookmark-white  dark:bg-slate-700 dark:text-bookmark-white  rounded-md  text-white hover:text-black shadow-lg shadow-black transition-all duration-500 transform hover:opacity-90 hover:shadow-md hover:scale-90">
             <img src="@/assets/shoe4.jpg" alt="shoe4" class=" h-32 w-auto p-1 mx-auto">
             <p class=" text-black p-1 pt-3">product one</p>
