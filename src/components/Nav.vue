@@ -2,10 +2,10 @@
   <div class="min-h-full">
     <div class="bg-gradient-to-r from-orange-900 via-slate-900 to-slate-900 dark:bg-slate-700">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="flex items-center justify-between h-16">
+        <div class="flex items-center justify-between h-14">
           <div class="flex items-center mt-1">
             <div class="flex-shrink-0">
-              <img class="h-8 w-8" src="@/assets/shoppingcart.svg" alt="Workflow" />
+              <img class=" h-10 w-10" src="@/assets/shoppingcart.svg" alt="Workflow" />
             </div>
             <div class="hidden md:block">
               <div class="ml-10 flex items-baseline space-x-12">
@@ -168,7 +168,7 @@
               </button>
                
               <!-- Profile dropdown -->
-              <Menu as="div" class="ml-3 relative">
+              <Menu as="div" class="m-1 relative">
                 <div>
                   <MenuButton class=" max-w-xs p-1 bg-orange-800 rounded-lg flex items-center text-sm focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
                     <span class="sr-only">Open user menu</span>
@@ -190,14 +190,13 @@
             <div class="ml-3 p-3">
               <div class="text-base font-medium leading-none text-white p-1">DigitalPro&trade;</div>
               <div class="text-sm font-medium leading-none text-gray-400 p-1"> digitalProStores@gmail.com</div>
+           
             </div>
-            <button type="button" class="ml-auto bg-gray-800 flex-shrink-0 p-1 rounded-full text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
-              <span class="sr-only">View notifications</span>
-              <BellIcon class="h-6 w-6" aria-hidden="true" />
-            </button>
+             
           </div>
         </div>
       </div>
+      
     </div>
  
 </template>
