@@ -80,13 +80,13 @@
         </div>
     </div>
     <!-- SUBSCRIBE -->
-<div class=" md:flex-row flex-col justify-center items-center flex md:justify-end md:items-center  mt-3 md:mt-2 mx-auto text-bookmark-white ">
-    <h2 class=" p-1">SUBSCRIBE</h2>
-    <form class=" gap-7 md:pr-10">
-        <input type="text" placeholder="Enter your email.." class=" md:h-12 h-12 w-auto md:w-auto m-2 rounded-sm outline-none p-2 text-black md:mr-1">
-        <input type="button" value="submit" class=" ml-2 md:ml-1 h-12 md:h-auto btn bg-blue-900 text-white hover:text-black hover:bg-orange-400 transition-all duration-500 transform hover:opacity-90 hover:shadow-md hover:scale-125 hover:m-1">
-    </form>
-</div>
+    <div class=" md:flex-row flex-col justify-center items-center flex md:justify-end md:items-center  mt-3 md:mt-2 mx-auto text-bookmark-white ">
+        <h2 class=" p-1">SUBSCRIBE</h2>
+        <form class=" gap-7 md:pr-10">
+            <input type="text" placeholder="Enter your email.." class=" md:h-12 h-12 w-auto md:w-auto m-2 rounded-sm outline-none p-2 text-black md:mr-1">
+            <input type="button" value="submit" class=" ml-2 md:ml-1 h-12 md:h-auto btn bg-blue-900 text-white hover:text-black hover:bg-orange-400 transition-all duration-500 transform hover:opacity-90 hover:shadow-md hover:scale-125 hover:m-1">
+        </form>
+    </div>
 </div>
 <div class=" dark:bg-slate-700 bg-gradient-to-r from-pink-700 via-bookmark-blue to-orange-500 p-2 h-36 md:32 pb-10">
     <div class=" flex justify-around items-center pt-6 gap-x-8 lg:gap-x-16  md:flex-row flex-col md:items-baseline">

@@ -23,7 +23,7 @@
     </div>
 </div>
 <div class=" md:mt-32 mt-14 m-3 p-1 mx-auto mb-3">
-    <h2 class=" text-center text-black dark:text-white font-serif leading-5 mb-3 border-b-2 border-orange-600 mx-auto pb-2">RECOMMENDED PRODUCTS</h2>
+    <h2 class=" text-center text-black dark:text-white font-serif leading-5 mb-3 border-b-2 border-orange-600 mx-auto pb-2">DISPLAY PRODUCTS</h2>
     <div class=" grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3 grid-rows-6 md:grid-rows-3 lg:grid-rows-2 gap-2 text-bookmark-white text-center">
         <div class="p-3 bg-white dark:bg-gray-600 flex justify-center  rounded-md hover:bg-gradient-to-b from-slate-900 via-bookmark-blue to-orange-500 text-white dark:hover:bg-orange-300 hover:text-black shadow-lg shadow-black transition-all duration-500 transform hover:opacity-90 hover:shadow-md hover:scale-75">
             <div class="">
@@ -84,7 +84,7 @@
 </div>
 <div class="p-1 mx-auto bg-white dark:bg-gray-600">
     <h2>
-        <router-link :to="{name:'services'}" class="flex  hover:underline font-extrabold hover:border-b-black uppercase text-white pb-2 justify-center mt-4 ">services</router-link>
+        <router-link :to="{name:'services'}" class="flex  hover:underline font-extrabold hover:border-b-black uppercase dark:text-white text-black pb-2 justify-center mt-4 text-lg ">services</router-link>
     </h2>
 </div>
 <div class="flex border-red-900 border-l-2 bg-gradient-to-r from-slate-900 via-bookmark-blue to-orange-500  mt-3 p-3 bg-slate-900 dark:bg-slate-700 dark:hover:bg-orange-300 text-black justify-center text-center  flex-col-reverse md:flex-row md:justify-start">
