@@ -109,15 +109,15 @@
     <div class=" lg:bg-slate-900 sm:bg-bookmark-blue md:mx-72 py-36 rounded-md flex-col md:flex-row">
         <div class="flex justify-center items-center align-middle gap-20 text-bookmark-white p-2 lg:border-b  lg:border-x-2 lg:border-orange-900">
             <div class="p-1 font-serif font-bold tracking-wide leading-5">
-                <h1>Customer 3M+</h1>
+                <h1>Customer 30+</h1>
             </div>
             <div class="p-1 font-serif font-bold tracking-wide leading-5 md:py-14 py-7">
-                <h1>Partners 4k+</h1>
+                <h1>Partners 4+</h1>
             </div>
         </div>
         <div class="flex justify-center items-center align-middle gap-20 text-bookmark-white p-2 lg:border-t  lg:border-x-2 lg:border-orange-900 ">
             <div class="p-1 font-serif font-bold tracking-wide leading-5">
-                <h1>Products 500k+</h1>
+                <h1>Products 70k+</h1>
             </div>
             <div class="p-1 font-serif font-bold tracking-wide leading-5 md:gap-20 md:py-14 py-7">
                 <h1>Followers 5k+</h1>

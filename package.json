@@ -12,6 +12,7 @@
     "@vue-hero-icons/outline": "^1.7.2",
     "@vue-hero-icons/solid": "^1.7.2",
     "core-js": "^3.8.3",
+    "highcharts": "^10.1.0",
     "surge": "^0.23.1",
     "swiper": "^8.2.2",
     "vue": "^3.2.13",

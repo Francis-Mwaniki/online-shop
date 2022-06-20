@@ -26,7 +26,7 @@
                                     <router-link :to="{name:'about'}" class="pt-2 hover:underline hover:border-b-black uppercase">about</router-link>
                                 </button>
                                 <button class=" flex justify-center gap-1"> <img class="h-8 w-8" src="@/assets/orders.svg" alt="Workflow" />
-                                    <router-link :to="{name:'clientDashboard'}" class="pt-2 hover:underline hover:border-b-black uppercase">orders</router-link>
+                                    <router-link :to="{name:'clientDashboard'}" class="pt-2 hover:underline hover:border-b-black uppercase">Admin</router-link>
                                 </button>
                             </div>
                         </div>
@@ -54,7 +54,7 @@
                         <!-- Profile dropdown -->
                         <Menu as="div" class="ml-3 relative">
                             <div>
-                                <MenuButton class=" md:my-4 max-w-xs p-1 bg-orange-800 rounded-lg flex items-center text-sm focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
+                                <MenuButton class=" md:my-4 max-w-xs  bg-slate-700 rounded-lg flex items-center text-sm focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
                                     <span class="sr-only">Open user menu</span>
                                     <router-link :to="{name:'signup'}" class=" uppercase items-baseline hover:underline hover:border-b-black m-1 text-bookmark-white">signup</router-link>
                                     <button class="transition-all duration-500 transform hover:opacity-90 hover:shadow-md hover:scale-125 items-baseline h-8 w-20 rounded-md p-1  uppercase hover:bg-blue-800 m-1 md:hover:rounded-md md:hover:ring-2 md:hover:border-orange-400 md:hover:border  bg-slate-800">
@@ -130,9 +130,9 @@
                             <path d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" fill-rule="evenodd" clip-rule="evenodd"></path>
                         </svg>
                     </button>
-                    <button type="button" class="m-1  p-2 bg-gray-200 rounded-lg text-gray-900 hover:text-black focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-slate-900">
-                        <span class="sr-only">Users</span>
-                        <select class=" p-1 outline-none border-0 gap-5 ">
+                    <button type="button" class="m-1  p-2 bg-gray-200 rounded-lg text-gray-900 hover:text-black focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-slate-900" @click="users">
+                             Users
+                        <select class=" p-1 outline-none border-0 gap-5 " v-show="userPersonel">
                             <option value="Admin" class="p-2 ">Admin</option>
                             <option value="Client" class=" p-2">Client</option>
                         </select>
@@ -179,12 +179,16 @@ export default {
     data() {
         return {
             toggleMenu: false,
+            userPersonel:false,
         };
     },
     methods: {
         toggle() {
             console.log("clicked");
         },
+        users(){
+            this.userPersonel=!this.userPersonel;
+        }
     },
     mounted() {
         var themeToggleDarkIcon = document.getElementById(
@@ -256,5 +260,6 @@ export default {
             }
         });
     },
+    
 }
 </script>

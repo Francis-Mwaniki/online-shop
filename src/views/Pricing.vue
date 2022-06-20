@@ -40,8 +40,8 @@
         </p>
     </div>
     <div class=" h-auto p-2 max-w-2xl border-2 border-cyan-800 shadow-lg shadow-black my-2 rounded-lg md:mb-1 mb-4  md:mt-10">
-        <h1 class=" uppercase  border-b-2 border-orange-800 mx-auto  flex justify-center dark:text-white">Advanced page</h1>
-        <p class=" p-2 text-center hover:rounded-full hover:border-orange-800 hover:border dark:text-white mx-2 my-2 hover:bg-black hover:p-2 hover:text-white">Goods Above Ksh 2000</p>
+        <h1 class=" uppercase  border-b-2 border-orange-800 mx-auto  flex justify-center dark:text-white">Premium page</h1>
+        <p class=" p-2 text-center hover:rounded-full hover:border-orange-800 hover:border dark:text-white mx-2 my-2 hover:bg-black hover:p-2 hover:text-white">Goods Above Ksh 2500</p>
         <button class=" flex text-center justify-center min-w-full  bg-bookmark-blue btn text-white items-center focus:ring-4 ring-blue-900 md:pt-4">Advanced</button>
         <p class=" p-2 mt-1 tracking-normal font-light text-gray-300 ">
             <ul class=" max-w-lg overflow-hidden p-2 bg-bookmark-white dark:bg-slate-700 hover: border border-orange-800 rounded-lg shadow-lg shadow-black">

@@ -5,6 +5,7 @@ import Pricing from '../views/Pricing.vue'
 import Services from '../views/Services.vue'
 import About from '../views/About.vue'
 import clientDashboard from '../views/clientDashboard.vue'
+import Cart from '../views/Cart.vue'
 import Signup from '../views/Signup.vue'
 import Login from '../views/Login.vue'
 const routes = [
@@ -48,6 +49,12 @@ const routes = [
     name: 'login',
     component: Login
   },
+  {
+    path: '/cart',
+    name: 'Cart',
+    component: Cart
+  },
+  
   
 ]
 

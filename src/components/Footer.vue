@@ -96,6 +96,7 @@
             <a href="" target="_blank" rel="noopener noreferrer"><img src="@/assets/SocialMedia/Facebook.svg" class=" h-9" alt=""></a>
             <a href="" target="_blank" rel="noopener noreferrer"><img src="@/assets/SocialMedia/github.svg" class=" h-9" alt=""></a>
             <a href="" target="_blank" rel="noopener noreferrer"><img src="@/assets/SocialMedia/Twitter.svg" class=" h-9" alt=""></a>
+            
             <!--  <button class=" p-1"><img src="@/assets/SocialMedia/linkedIn.svg" class="h-9"  alt=""></button>
             <button class=" p-1"><img src="@/assets/SocialMedia/Facebook.svg" class=" h-9" alt=""></button>
             <button class=" p-1"><img src="@/assets/SocialMedia/github.svg"   class=" h-9" alt=""></button>
