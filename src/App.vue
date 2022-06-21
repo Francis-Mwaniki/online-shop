@@ -14,7 +14,10 @@ export default {
     components: {
         Nav,
 
-    }
+    },
+      mounted(){
+    this.$store.commit('updateCartFromLocalStorage')
+  }
 
 }
 </script>

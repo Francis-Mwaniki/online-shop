@@ -51,7 +51,7 @@ const routes = [
   },
   {
     path: '/cart',
-    name: 'Cart',
+    name: 'cart',
     component: Cart
   },
   

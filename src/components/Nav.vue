@@ -25,6 +25,9 @@
                                 <button class=" flex justify-center gap-1"> <img class="h-8 w-8" src="@/assets/about.svg" alt="Workflow" />
                                     <router-link :to="{name:'about'}" class="pt-2 hover:underline hover:border-b-black uppercase">about</router-link>
                                 </button>
+                                 <button class=" flex justify-center gap-1"> <img class="h-8 w-8" src="@/assets/orders.svg" alt="Workflow" />
+                                    <router-link :to="{name:'cart'}" class="pt-2 hover:underline hover:border-b-black uppercase">Cart</router-link>
+                                </button>
                                 <button class=" flex justify-center gap-1"> <img class="h-8 w-8" src="@/assets/orders.svg" alt="Workflow" />
                                     <router-link :to="{name:'clientDashboard'}" class="pt-2 hover:underline hover:border-b-black uppercase">Admin</router-link>
                                 </button>
