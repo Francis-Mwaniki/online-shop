@@ -91,7 +91,24 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 
-
+ <div v-show="open" class=" ">
+    <button @click="open=false" class="">X</button>
+     <button>
+           <div class=" p-5" v-show="product">
+     <h3 class=" ">{{product.name}}</h3>
+     <p class=" ">{{product.desc}}</p>
+     <h4 class=" ">${{product.price}}</h4>
+     <div class=" " v-show="productTotal">
+         <h3 class=" ">In Cart</h3>
+         <span class="  ">Quantity:{{productTotal}}</span>
+     </div>
+     <div class=" flex justify-center items-center gap-x-2">
+         <button class=" bg-red-700 py-1 px-2 outline-none focus:ring-4 rounded-lg text-white" @click="removeFromCart">remove</button>
+          <button class=" bg-blue-700 py-1 px-3 outline-none focus:ring-4 rounded-lg text-white" @click="addToCart">add</button>
+     </div>
+ </div>
+     </button>
+   </div>
 
 
 

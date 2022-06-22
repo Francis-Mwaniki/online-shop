@@ -8,6 +8,7 @@ import clientDashboard from '../views/clientDashboard.vue'
 import Cart from '../views/Cart.vue'
 import Signup from '../views/Signup.vue'
 import Login from '../views/Login.vue'
+import Team from '../views/Team.vue'
 const routes = [
   {
     path: '/',
@@ -53,6 +54,11 @@ const routes = [
     path: '/cart',
     name: 'cart',
     component: Cart
+  },
+  {
+    path: '/team',
+    name: 'team',
+    component:Team
   },
   
   

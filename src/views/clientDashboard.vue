@@ -68,7 +68,7 @@
                             <div class="pointer-events-none absolute inset-y-0 left-0 flex items-center">
                                 <SearchIcon class="h-5 w-5" aria-hidden="true" />
                             </div>
-                            <input id="search-field" class=" dark:bg-blue-300 focus:border focus:border-gray-300 focus:rounded-lg  block h-full w-full border-transparent py-1 pl-8 pr-3 text-gray-900 dark:text-orange-800 placeholder-gray-500  focus:placeholder-gray-400 focus:outline-none focus:ring-3 sm:text-sm" placeholder="Search" type="search" name="search" />
+                            <input id="search-field" class=" dark:bg-blue-300 focus:border focus:border-gray-300 focus:rounded-lg  block h-full w-full border-transparent py-1 pl-8 pr-3 text-gray-900 dark:text-black tracking-wider text-2xl font-serif leading-4 font-bold placeholder-gray-800  focus:placeholder-gray-400 focus:outline-none focus:ring-3 sm:text-sm" placeholder="Search" type="search" name="search" />
                         </div>
                     </form>
                 </div>
@@ -204,9 +204,9 @@ export default {
                 },
                 {
                     name: 'Team',
-                    href: '#',
+                    href: '#team',
                     icon: UsersIcon,
-                    current: true
+                    current: false
                 },
                 {
                     name: 'Projects',

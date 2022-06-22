@@ -9,7 +9,7 @@
                         <h3 class="dark:text-white text-black p-1 pt-3 bg-blue-600 rounded-full items-center max-h-20 justify-center border-amber-600 border min-w-fit"><span class=" p-1 text-center flex justify-center items-center">Ksh {{items_cost!=null?items_cost.toFixed(2):''}}</span></h3>
                         <p class="dark:text-white text-black p-1 pt-3 italic text-center">{{description}}</p>
                     </div>
-                     <button @click="deleteFromCart" class=" ease-in-out duration-300 btn  bg-red-900 hover:bg-blue-600 flex justify-center gap-x-3  mx-auto text-white dark:text-gray-100 hover:text-white p-4">Delete<img class=" h-6 w-6" src="@/assets/shoppingcart.svg" alt="Workflow" /></button>
+                     <button @click="deleteFromCart" class=" ease-in-out duration-300 btn  bg-white hover:bg-slate-100 flex justify-center gap-x-3  gap-y-1 mx-auto text-white dark:text-black hover:border hover:border-red-700 p-2 rounded-full"><img class=" h-6 w-6 text-white" src="@/assets/DELETE.svg" alt="Workflow" /></button>
                 </div>
             </div>
         </div>

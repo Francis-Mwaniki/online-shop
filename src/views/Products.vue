@@ -1,7 +1,9 @@
 <template>
-<div class=" mt-1 p-1 mb-3">
+<div class=" mt-1 p-1 mb-3 relative">
     <div class=" flex justify-center gap-x-2 mt-2  md:flex-row flex-col">
-      <button class="cursor-move p-2 m-1 justify-center flex gap-2 dark:bg-yellow-50 bg-blue-300 rounded-md"><strong class=" p-1"> Items in Cart</strong> <img class=" h-10 w-10" src="@/assets/shoppingcart.svg" alt="Workflow" /></button> 
+      <router-link :to="{name:'cart'}"> 
+      <button class="cursor-move p-2 m-1 justify-center flex gap-2 dark:bg-yellow-50 bg-blue-300 rounded-md"><strong class=" p-1">Go My Cart</strong> <img class=" h-10 w-10" src="@/assets/shoppingcart.svg" alt="Workflow" /></button> 
+        </router-link>
 <div class=" flex md:justify-end justify-center m-1 ">
     <button class=" cursor-move flex justify-center border dark:bg-orange-700 border-orange-900 rounded-lg dark:border-slate-600">
         <svg class=" dark:text-white md:h-12 h-12  transition-all duration-500 transform hover:opacity-90 pt-1 hover:pb-1 hover:scale-125" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 50 50" style=" fill:#undefined;">
@@ -22,13 +24,15 @@
    v-for="product in items" :key="product.id"
    :product="product"
    v-on:view-product="viewProduct($event)"
+   :product_drawer="product_drawer"
   />
  </div>
 </div>
     <ProductDescDrawer 
      :product="product"
-     :active="active.product_drawer"
-       v-on:closeProductDrawer="closeDrawer()"
+     :product_drawer="product_drawer"
+       v-on:closeProductDrawer="closeDrawer()
+       "
   />
 </div>
 <Footer />
@@ -49,9 +53,7 @@ export default {
     return{
       items:items,
       product:'',
-      active:{
         product_drawer:false
-      }
     }
   },
   components: {
@@ -65,7 +67,7 @@ export default {
       console.log(this.product);
     },
     closeDrawer(){
-      this.active.product_drawer=false;
+      this.product_drawer=false;
     }
   }
    
