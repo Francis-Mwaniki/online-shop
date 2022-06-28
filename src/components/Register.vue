@@ -268,7 +268,6 @@ data() {
                     (this.email = ""),
                     (this.password = ""),
                     (this.confirmPassword = "");
-
                     //disable logging
                     this.reg_in_submission = false;
                     this.reg_show_alert = false;
