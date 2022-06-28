@@ -1,8 +1,8 @@
 <template>
-<div v-if="showing" class="absolute inset-0  flex items-center justify-center mb-0 container mx-auto w-full md:max-w-5xl h-auto md:h-auto">
- <div class="relative z-20 md:bottom-9 md:top-0 top-3 w-full  h-auto bg-blue-300">
-   <div class="transition-all duration-500 transform hover:opacity-100 hover:shadow-md hover:scale-90 ">
-         <Register />
+<div  class="absolute inset-0  flex items-center justify-center mb-0 container mx-auto w-full md:max-w-5xl h-auto md:h-auto">
+ <div class="relative z-20 md:bottom-9 md:top-0 top-3 w-full  h-auto bg-transparent dark:bg-slate-800" v-if="showing">
+   <div  class="transition-all duration-500 transform hover:opacity-100 hover:shadow-md hover:scale-90 ">
+         <login />
        </div>
       <div class="">
         <button
@@ -30,10 +30,12 @@
 
 <script>
 import Register from '@/components/Register.vue'
+import Login from '@/views/Login.vue'
 export default {
   name:'PopupRegister',
    components:{
-        Register
+        Register,
+        Login
     },
   data(){
     return{

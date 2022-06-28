@@ -120,6 +120,36 @@
                                     </svg></span></strong> </div>
 
                     </div>
+
+                    <!-- APEX GRAPH -->
+                    <apexchart
+                    width="100%"
+                    height="380"
+                    type="bar"
+                    :options="optionsBar"
+                    :series="seriesBar"
+                  ></apexchart>
+                  <br />
+                 <hr />
+                      <apexchart
+                             width="100%"
+                             height="380"
+                             type="area"
+                             :options="optionsVisitor"
+                             :series="seriesVisitor"
+                           ></apexchart>
+                           <br />
+                           <hr />
+                     <apexchart
+                        width="100%"
+                        height="380"
+                        type="pie"
+                        :options="optionsDonut"
+                        :series="seriesDonut"
+                      ></apexchart>
+                      
+                     
+
                     <div class="py-4 bg-slate-300 dark:bg-slate-800 m-1">
                         <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400 lg:overflow-auto overflow-x-scroll">
                             <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
@@ -190,8 +220,9 @@ import {
 import {
     SearchIcon
 } from '@heroicons/vue/solid'
+
 export default {
-    name: 'clientDashboard',
+    name: 'AdminDashboard',
     data() {
         return {
             showMenu: false,
@@ -204,7 +235,7 @@ export default {
                 },
                 {
                     name: 'Team',
-                    href: '#team',
+                    href: '',
                     icon: UsersIcon,
                     current: false
                 },
@@ -271,10 +302,146 @@ export default {
                     statusTransaction: "cancelled",
                 },
             ],
+              optionsArea: {
+          xaxis: {
+            categories: [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022],
+          },
+          fontFamily: "Segoe UI, sans-serif",
+          stroke: {
+            curve: "straight",
+          },
+
+          markers: {
+            size: 0,
+          },
+          yaxis: {
+            show: false,
+          },
+          fill: {
+            type: "gradient",
+            gradient: {
+              shadeIntensity: 1,
+              opacityFrom: 0.7,
+              opacityTo: 0.9,
+              stops: [0, 90, 100],
+            },
+          },
+        },
+
+        chart: {
+          fontFamily: "lexend, sans-serif",
+        },
+
+        seriesArea: [
+          {
+            name: "Revenue",
+            data: [30, 40, 45, 50, 49, 60, 70, 91],
+          },
+          {
+            name: "Revenue (Previous period)",
+            data: [20, 34, 45, 55, 79, 87, 90, 98],
+          },
+        ],
+        optionsBar: {
+          chart: {
+            toolbar: {
+              show: false,
+            },
+            zoom: {
+              enabled: false,
+            },
+            sparkline: {
+              enabled: true,
+            },
+          },
+          legend: {
+            show: false,
+          },
+          xaxis: {
+            show: false,
+          },
+          yaxis: {
+            show: false,
+          },
+          colors: ["#4f46e5", "#DC2626"],
+          dataLabels: {
+            enabled: false,
+          },
+          stroke: {
+            curve: "straight",
+          },
+        },
+
+        seriesBar: [
+          {
+            name: "Product 1",
+            data: [30, 40, 45, 50, 49, 60, 70, 91],
+          },
+          {
+            name: "Product 2",
+            data: [20, 34, 45, 55, 79, 87, 90, 98],
+          },
+        ],
+        optionsVisitor: {
+          chart: {
+            toolbar: {
+              show: false,
+            },
+            zoom: {
+              enabled: false,
+            },
+            sparkline: {
+              enabled: true,
+            },
+          },
+          legend: {
+            show: false,
+          },
+          xaxis: {
+            show: false,
+          },
+          yaxis: {
+            show: false,
+          },
+          colors: ["#4f46e5"],
+          dataLabels: {
+            enabled: false,
+          },
+          fill: {
+            type: "gradient",
+            gradient: {
+              shadeIntensity: 1,
+              opacityFrom: 0.7,
+              opacityTo: 0.9,
+              stops: [0, 90, 100],
+            },
+          },
+          stroke: {
+            curve: "smooth",
+          },
+        },
+
+        seriesVisitor: [
+          {
+            name: "Visitor ",
+            data: [30, 40, 45, 50, 49, 60, 70, 91],
+          },
+        ],
+        optionsDonut: {
+          chart: {
+            type: "donut",
+          },
+          legend: false,
+          dataLabels: {
+            enabled: false,
+          },
+          labels: ["admin", "SuperAdmin", "User", "Costumer"],
+        },
         }
+
     },
     components: {
-
+        
     },
     methods: {
         showMenuBtn() {

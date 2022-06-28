@@ -53,14 +53,17 @@
         </p>
     </div>
 </div>
+<ImageUploader />
 <Footer />
 </template>
 
 <script>
+import ImageUploader from '@/components/ImageUploader.vue'
 import Footer from '@/components/Footer.vue'
 export default {
     name: 'Pricing',
     components: {
+        ImageUploader,
         Footer
     },
     data() {
