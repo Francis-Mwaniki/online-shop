@@ -122,31 +122,9 @@
                     </div>
 
                     <!-- APEX GRAPH -->
-                    <apexchart
-                    width="100%"
-                    height="380"
-                    type="bar"
-                    :options="optionsBar"
-                    :series="seriesBar"
-                  ></apexchart>
-                  <br />
-                 <hr />
-                      <apexchart
-                             width="100%"
-                             height="380"
-                             type="area"
-                             :options="optionsVisitor"
-                             :series="seriesVisitor"
-                           ></apexchart>
-                           <br />
-                           <hr />
-                     <apexchart
-                        width="100%"
-                        height="380"
-                        type="pie"
-                        :options="optionsDonut"
-                        :series="seriesDonut"
-                      ></apexchart>
+                   <div class=" bg-orange-400 rounded-md p-1 dark:bg-slate-800 dark:text-bookmark-white">
+                    <HighChart />
+                   </div>
                       
                      
 
@@ -196,6 +174,7 @@
 </template>
 
 <script>
+import HighChart from '@/components/HighChart.vue'
 import {
     Dialog,
     DialogPanel,
@@ -302,146 +281,12 @@ export default {
                     statusTransaction: "cancelled",
                 },
             ],
-              optionsArea: {
-          xaxis: {
-            categories: [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022],
-          },
-          fontFamily: "Segoe UI, sans-serif",
-          stroke: {
-            curve: "straight",
-          },
-
-          markers: {
-            size: 0,
-          },
-          yaxis: {
-            show: false,
-          },
-          fill: {
-            type: "gradient",
-            gradient: {
-              shadeIntensity: 1,
-              opacityFrom: 0.7,
-              opacityTo: 0.9,
-              stops: [0, 90, 100],
-            },
-          },
-        },
-
-        chart: {
-          fontFamily: "lexend, sans-serif",
-        },
-
-        seriesArea: [
-          {
-            name: "Revenue",
-            data: [30, 40, 45, 50, 49, 60, 70, 91],
-          },
-          {
-            name: "Revenue (Previous period)",
-            data: [20, 34, 45, 55, 79, 87, 90, 98],
-          },
-        ],
-        optionsBar: {
-          chart: {
-            toolbar: {
-              show: false,
-            },
-            zoom: {
-              enabled: false,
-            },
-            sparkline: {
-              enabled: true,
-            },
-          },
-          legend: {
-            show: false,
-          },
-          xaxis: {
-            show: false,
-          },
-          yaxis: {
-            show: false,
-          },
-          colors: ["#4f46e5", "#DC2626"],
-          dataLabels: {
-            enabled: false,
-          },
-          stroke: {
-            curve: "straight",
-          },
-        },
-
-        seriesBar: [
-          {
-            name: "Product 1",
-            data: [30, 40, 45, 50, 49, 60, 70, 91],
-          },
-          {
-            name: "Product 2",
-            data: [20, 34, 45, 55, 79, 87, 90, 98],
-          },
-        ],
-        optionsVisitor: {
-          chart: {
-            toolbar: {
-              show: false,
-            },
-            zoom: {
-              enabled: false,
-            },
-            sparkline: {
-              enabled: true,
-            },
-          },
-          legend: {
-            show: false,
-          },
-          xaxis: {
-            show: false,
-          },
-          yaxis: {
-            show: false,
-          },
-          colors: ["#4f46e5"],
-          dataLabels: {
-            enabled: false,
-          },
-          fill: {
-            type: "gradient",
-            gradient: {
-              shadeIntensity: 1,
-              opacityFrom: 0.7,
-              opacityTo: 0.9,
-              stops: [0, 90, 100],
-            },
-          },
-          stroke: {
-            curve: "smooth",
-          },
-        },
-
-        seriesVisitor: [
-          {
-            name: "Visitor ",
-            data: [30, 40, 45, 50, 49, 60, 70, 91],
-          },
-        ],
-        optionsDonut: {
-          chart: {
-            type: "donut",
-          },
-          legend: false,
-          dataLabels: {
-            enabled: false,
-          },
-          labels: ["admin", "SuperAdmin", "User", "Costumer"],
-        },
+             
         }
 
     },
     components: {
-        
+           HighChart
     },
     methods: {
         showMenuBtn() {

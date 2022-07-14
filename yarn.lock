@@ -1723,6 +1723,11 @@
   resolved "https://registry.yarnpkg.com/@heroicons/vue/-/vue-1.0.6.tgz#d8b90734b436eb5a87f40cc300b64a0fb0031f7f"
   integrity sha512-ng2YcCQrdoQWEFpw+ipFl2rZo8mZ56v0T5+MyfQQvNqfKChwgP6DMloZLW+rl17GEcHkE3H82UTAMKBKZr4+WA==
 
+"@highcharts/map-collection@^2.0.1":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@highcharts/map-collection/-/map-collection-2.0.1.tgz#c5eac79b9711c75248d4219c53be9b6a07704c9d"
+  integrity sha512-eC5sEMC8LoCVMCz4BKuREcS3wVBBSFaRClJ7/vVZxd4nJe0VEykSFfQJwh8lpY4oJDy46iYrFzy3fwsTo9hmqg==
+
 "@jridgewell/gen-mapping@^0.1.0":
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/@jridgewell/gen-mapping/-/gen-mapping-0.1.1.tgz#e5d2e450306a9491e3bd77e323e38d7aff315996"
@@ -4196,6 +4201,16 @@ he@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/he/-/he-1.2.0.tgz#84ae65fa7eafb165fddb61566ae14baf05664f0f"
   integrity sha512-F/1DnUGPopORZi0ni+CvrCgHQ5FyEAHRLSApuYWMmrbSwoN2Mn/7k+Gl38gJnR7yyDZk6WLXwiGod1JOWNDKGw==
+
+highcharts-vue@^1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/highcharts-vue/-/highcharts-vue-1.4.0.tgz#4bdaaddc6b9a3eea0df70d29a22ae713d28e4a0c"
+  integrity sha512-fTPqJmU/wR/nUEtofbC/iJqcgULGcP3C0Hd4YYCKH2FiiteNs7UidjSM4eYj5Y4ldpOVhwPtNj/m6XwC3ajp6g==
+
+highcharts@^10.2.0:
+  version "10.2.0"
+  resolved "https://registry.yarnpkg.com/highcharts/-/highcharts-10.2.0.tgz#646b1c80fb4add9e35e5813bd87419ccdf1fc6b7"
+  integrity sha512-MvLo4dzR2Vo7Y85dsqJ07uabBXSSIRKRRdW4l9IGP55h2jYWNm/m9JBszVVxySH5Lda6g+Ins9NdGppZJpjNCA==
 
 highlight.js@^10.7.1:
   version "10.7.3"
