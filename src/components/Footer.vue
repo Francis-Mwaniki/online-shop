@@ -2,7 +2,7 @@
 <div class=" bg-black p-2 mx-auto h-auto">
     <h1 class="text-center text-bookmark-white font-serif leading-5 mb-3 border-b-2 border-orange-600 mx-auto pb-2">CONTACT US</h1>
     <div class=" flex justify-start">
-        <div class=" grid grid-cols-2 md:grid-cols-5 grid-flow-row justify-start gap-x-16 gap-y-11 text-bookmark-grey text-sm pt-8 pb-9 ml-5 font-thin tracking-normal leading-5  border-b-2 border-blue-900">
+        <div class=" grid grid-cols-2 md:grid-cols-5 grid-flow-row justify-start gap-x-16 gap-y-11 text-gray-300 text-sm pt-8 pb-9 ml-5 font-thin tracking-normal leading-5  border-b-2 border-blue-900">
             <div class=" gap-2">
                 <h2>
                     <router-link to="/" class="  hover:border-b-black mb-1 border-b border-gray-400">SERVICES</router-link>

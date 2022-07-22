@@ -259,7 +259,7 @@ data() {
                     //deleting login success text
                     this.dismiss = true
                     //if data is true redirect to new page
-                    data.message ? this.redirect = true : "";
+                     this.$router.push({path:'/welcome'})
                     console.log(data.message)
 
                     this.userSigned = true;

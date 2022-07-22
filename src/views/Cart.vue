@@ -19,8 +19,12 @@
 
 import cartItemCard from '@/components/cart/cartItemCard.vue'
 import cartPaymentSummary from '@/components/cart/cartPaymentSummary.vue'
+
 export default {
   name: 'HomeView',
+   mounted(){
+    
+  },
   components: {
     cartItemCard,cartPaymentSummary
   },

@@ -1,13 +1,13 @@
 <template>
-<div  class="absolute inset-0  flex items-center justify-center mb-0 container mx-auto w-full md:max-w-5xl h-auto md:h-auto">
- <div class="relative z-20 md:bottom-9 md:top-0 top-3 w-full  h-auto bg-transparent dark:bg-slate-800" v-if="showing">
+<div  class="absolute inset-0  flex items-center justify-center mb-0 container mx-auto w-full md:max-w-lg h-auto md:h-auto">
+ <div class="relative z-20 md:bottom-9 md:top-0 top-3 w-full  h-auto bg-transparent dark:bg-transparent opacity-100" v-if="showing">
    <div  class="transition-all duration-500 transform hover:opacity-100 hover:shadow-md hover:scale-90 ">
-         <login />
+         <Users />
        </div>
       <div class="">
         <button
         aria-label="close"
-        class="absolute top-0 right-0 text-xl  text-black w-auto bg-bookmark-white p-2 rounded-full"
+        class="absolute top-0 right-0 text-lg  text-black w-auto bg-bookmark-white p-2 rounded-full"
         @click="showing=!showing"
       >
       <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
@@ -29,13 +29,12 @@
 </template>
 
 <script>
-import Register from '@/components/Register.vue'
-import Login from '@/views/Login.vue'
+import Users from '@/components/Users.vue'
 export default {
   name:'PopupRegister',
    components:{
-        Register,
-        Login
+        Users,
+      
     },
   data(){
     return{
